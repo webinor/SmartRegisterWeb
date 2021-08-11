@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 28, 2020, 6:49:29 PM
+    Author     : Marcel
+*/
+
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+
+  ExpiresActive On
+
+  # Images
+  ExpiresByType image/jpeg "access plus 20 minutes"
+  ExpiresByType image/gif "access plus 20 minutes"
+  ExpiresByType image/png "access plus 20 minutes"
+  ExpiresByType image/webp "access plus 20 minutes"
+  ExpiresByType image/svg+xml "access plus 20 minutes"
+  ExpiresByType image/x-icon "access plus 20 minutes"
+
+  # Video
+  ExpiresByType video/mp4 "access plus 20 minutes"
+  ExpiresByType video/mpeg "access plus 20 minutes"
+
+  # CSS, JavaScript
+  ExpiresByType text/css "access plus 20 minutes"
+  ExpiresByType text/javascript "access plus 20 minutes"
+  ExpiresByType application/javascript "access plus 20 minutes"
+
+  # Others
+  ExpiresByType application/pdf "access plus 1 month"
+  ExpiresByType application/x-shockwave-flash "access plus 1 month"
+
+
+
+
+</IfModule>
